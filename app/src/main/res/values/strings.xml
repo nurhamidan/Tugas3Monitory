@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tugas 2 Monitori Application</string>
+    <string name="text_main_1">Monitory Membantu Anda</string>
+    <string name="text_main_2">Mengontrol HP Anak</string>
+    <string name="mulai">Mulai</string>
+    <string name="kode_keluarga">Kode Keluarga</string>
+    <string name="ketikkan_kode_keluarga">Ketikkan kode keluarga yang Ayah Bunda miliki disini</string>
+    <string name="kalimat_persetujuan">Dengan menekan tombol masuk berarti Anda menyetujui <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> kami</string>
+    <string name="masuk">Masuk</string>
+    <string name="pertanyaan_kepunyaan_kode_keluarga">Belum punya kode keluarga?</string>
+    <string name="nama_panggilan_kamu">Nama Panggilan Kamu</string>
+    <string name="hint_nama_panggilan">Contoh : Budi</string>
+    <string name="umur_kamu">Umur Kamu</string>
+    <string name="hint_umur">Contoh : 12</string>
+    <string name="selanjutnya">Selanjutnya</string>
+    <string name="oke">Oke</string>
+</resources>
