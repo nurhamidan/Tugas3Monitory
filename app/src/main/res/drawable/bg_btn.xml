@@ -2,9 +2,10 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="rectangle">
-            <gradient android:startColor="@color/sun_yellow"
+            <gradient android:startColor="@color/butterscotch"
                 android:centerColor="@color/sun_flower"
-                android:endColor="@color/butterscotch"/>
+                android:endColor="@color/sun_yellow"
+                android:angle="90"/>
             <corners android:radius="50dp"/>
         </shape>
     </item>

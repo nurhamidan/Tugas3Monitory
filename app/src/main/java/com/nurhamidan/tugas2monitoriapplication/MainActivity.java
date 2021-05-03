@@ -2,7 +2,9 @@ package com.nurhamidan.tugas2monitoriapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 /*
     NIM : 10118017
@@ -18,5 +20,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (getIntent().getBooleanExtra(SayHaiActivity.FROM, false)) {
+            finish();
+        }
+    }
+
+    public void showLoginCodeActivity(View v) {
+        Intent intent = new Intent(this, LoginCodeActivity.class);
+        startActivity(intent);
     }
 }

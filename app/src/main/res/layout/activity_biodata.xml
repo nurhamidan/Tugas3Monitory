@@ -23,11 +23,12 @@
             android:textSize="@dimen/ukuran_label_biodata"
             android:fontFamily="@font/nunito_bold"/>
         <EditText
+            android:id="@+id/edt_biodata_nama_panggilan"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:hint="@string/hint_nama_panggilan"
             android:textColorHint="@color/white_1"
-            android:textColor="@color/white_1"
+            android:textColor="@color/black_3"
             android:backgroundTint="@color/white_1"/>
         <TextView
             android:layout_width="match_parent"
@@ -42,7 +43,7 @@
             android:layout_height="70dp"
             android:hint="@string/hint_umur"
             android:textColorHint="@color/white_1"
-            android:textColor="@color/white_1"
+            android:textColor="@color/black_3"
             android:backgroundTint="@color/white_1"/>
     </LinearLayout>
     <RelativeLayout
@@ -60,6 +61,7 @@
             android:layout_centerInParent="true"
             android:textSize="@dimen/ukuran_text_button"
             android:textColor="@color/black_3"
+            android:onClick="showSayHiActivity"
             android:background="@drawable/bg_btn"/>
     </RelativeLayout>
 
